@@ -1,21 +1,12 @@
 import React from 'react'
 import "./Home.css";
+import Navbar from "../../components/Home/Navbar";
 function Home() {
 
   return (
     <>
-    <div className="row">
-        <div className='col-md-12'>
-          <div className='show-notes-container'>
-            <div className='all-notes-container'>
-              <div className='note'>
-              
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
+   <Navbar />
+    
     </>
     )
 }
