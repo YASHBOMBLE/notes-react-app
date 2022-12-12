@@ -6,7 +6,7 @@ function Addnote() {
         <Navbar />
       <h1>Add note</h1>
     </div>
-  )+
+  )
 }
 
 export default Addnote
