@@ -5,6 +5,7 @@ import "./Home.css";
 
 
 import Note from "../../components/Note/Note";
+
 function Home() {
     const [notes, setNotes] = useState([
         {
@@ -37,7 +38,7 @@ function Home() {
         if (title === "" || content === "") {
             swal({
                 title: "Error",
-                text: "please fill all field",
+                text: "Please fill all field",
                 icon: "error"
             })
             return;
@@ -47,8 +48,8 @@ function Home() {
         }
         setNotes([...notes, newNote])
         swal({
-            title: "Note added",
-            text: "Notes added successfully",
+            title: "Note Added",
+            text: "Notes added Successfully",
             icon: "success"
         })
         setTitle("")
@@ -59,6 +60,7 @@ function Home() {
 
             <div className="row">
                 <span className='app-title'>Notes App</span>
+                <span className='partition-line'></span>
                 <div className='col-md-6'>
 
                     <div className='show-notes-container'>
@@ -93,6 +95,19 @@ function Home() {
                     </div>
 
                 </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-6'>
+
+                </div>
+                <div className='col-md-6'>
+                    <div className='footer-container'>
+                        <div className='Name'>
+                            Developed By YASH_BOMBLE
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </>

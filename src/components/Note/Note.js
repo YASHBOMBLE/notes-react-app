@@ -14,7 +14,7 @@ function Note({title, content,noteIndex}) {
     }
     swal({
       title:"Deleted",
-      Text : "Your Note has been deleted.",
+      text : "Your Note has been deleted permanently.",
       icon:"Success"
     })
     window.location.reload();
@@ -22,8 +22,8 @@ function Note({title, content,noteIndex}) {
   return (
     <div>
       <div className='note-container' >
-        <h6>{title}</h6>
-        <p>{content}</p>
+        <h6 className='note-title'>{title}</h6>
+        <p className='note-content'>{content}</p>
         <span className='delete-btn' onClick={deleteNote}>❌</span>
       </div>
     </div>
