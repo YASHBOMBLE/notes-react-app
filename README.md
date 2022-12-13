@@ -5,4 +5,4 @@
 #### Also Fill all And Delete feature.
 ![Project image](./ScreenShots/Fill_all.jpg)
 #### Note add feature
-![Project image](./ScreenShots/Note%20Added.jpg.jpg)
+![Project image](./ScreenShots/Note%20Added.jpg)
